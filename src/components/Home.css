@@ -1,9 +1,9 @@
 .panel-dark{
     background-color: #333333 !important;
-   color: white;
+    color: white;
+    height: 550px;
 
 }
-.panel-light{
-   
+.panel-light{   
     background-color: #ffffff; 
 }
