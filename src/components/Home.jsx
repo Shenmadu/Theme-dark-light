@@ -3,8 +3,7 @@ import ThemeContext from '../context/ThemeContext';
 import '../components/Home.css'
 
 export default function Home() {
-    const theme= useContext (ThemeContext);
-    console.log(theme);
+    const theme= useContext (ThemeContext); 
 
     return (
         <div className= {`panel-${theme} text-center py-5`}>   
