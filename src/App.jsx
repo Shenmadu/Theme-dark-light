@@ -17,7 +17,11 @@ function App() {
         <Home />
       </ThemeContext.Provider>
 
-      
+      <div class="form-check form-switch">
+        <input class="form-check-input"  onChange={()=>{setTheme(theme==='light'?'dark':'light')}} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+        <label class="form-check-label" for="flexSwitchCheckDefault">Use Dark Mode</label>
+      </div>
+
      
 
     </div>
